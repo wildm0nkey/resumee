@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио начинающего разработчика | Сетевой инженер</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Network Engineer</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Обо мне</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Навыки</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link">Сертификаты</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой-секция -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Привет, я начинающий веб-разработчик</h1>
+                
+                <!-- Специальный эффект для имени -->
+                <div class="name-container">
+                    <h2 class="name-effect">Ваше Имя и Фамилия</h2>
+                </div>
+                
+                <p class="hero-subtitle">Сетевой инженер и разработчик. Создаю и поддерживаю сетевую инфраструктуру, а также разрабатываю веб-сайты.</p>
+                
+                <div class="hero-btns">
+                    <a href="#certificates" class="btn-primary">Мои сертификаты</a>
+                    <a href="#about" class="btn-secondary">Обо мне</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <!-- Ваше фото - просто замените photo.jpg на ваше фото -->
+                    <img src="photo.jpg" alt="Мое фото" class="profile-photo">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Прокрутите вниз</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Мне 19 лет (скоро 20), родился 1 января 2006 года. Уже 4 года изучаю сетевые технологии и системное администрирование. Сейчас продолжаю обучение в университете, углубляя знания в области информационной безопасности.</p>
+                    <p>Имею опыт создания сайтов на заказ, специализируюсь на фронтенд-разработке.</p>
+                    
+                    <h3>Сайты, которые мне нравятся:</h3>
+                    <ol>
+                        <li><a href="https://w3schools.com" target="_blank">W3Schools</a></li>
+                        <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+                        <li><a href="https://css-tricks.com" target="_blank">CSS-Tricks</a></li>
+                    </ol>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-text">года обучения</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-text">сертификата Cisco</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-text">курс вуза</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Навыки и технологии</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Сетевые технологии</h3>
+                    <ul>
+                        <li>Настройка маршрутизаторов и коммутаторов</li>
+                        <li>Протоколы TCP/IP, OSPF, EIGRP</li>
+                        <li>Виртуальные частные сети (VPN)</li>
+                        <li>Беспроводные сети</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Веб-разработка</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Адаптивный дизайн</li>
+                        <li>Создание сайтов на заказ</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Информационная безопасность</h3>
+                    <ul>
+                        <li>Основы кибербезопасности</li>
+                        <li>Защита сетевой инфраструктуры</li>
+                        <li>Принципы шифрования</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Сертификаты -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Сертификаты Cisco</h2>
+            <p class="section-subtitle">Прошел обучение в Cisco Academy и получил следующие сертификаты:</p>
+            <div class="certificates-grid">
+                <!-- Ваши сертификаты - просто замените названия файлов -->
+                <div class="certificate-item">
+                    <img src="certificate1.jpg" alt="Сертификат Cisco 1" class="certificate-img">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate2.jpg" alt="Сертификат Cisco 2" class="certificate-img">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate3.jpg" alt="Сертификат Cisco 3" class="certificate-img">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate4.jpg" alt="Сертификат Cisco 4" class="certificate-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Сетевой инженер. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
